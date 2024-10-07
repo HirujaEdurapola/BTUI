@@ -96,7 +96,7 @@
     max-width: 100%;
 }
 
-.explainer-btn{
+.explainer-btn, .post-btn{
     border-radius: 30px;
     padding: 2vh;
     padding-left: 2vw;
@@ -120,7 +120,7 @@
     font-weight: bold;
 }
 
-.explainer-btn:hover{
+.explainer-btn:hover, .post-btn:hover{
     border-left-color: rgb(0, 0, 0);
     border-right-color: rgb(0, 192, 250);
     border-top-color: rgb(0, 0, 0);

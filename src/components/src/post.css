@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-hero{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assests/KnackBretzel-Forums-1536x643.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.child-hero{
+    background-color: rgba(0, 0, 0, 0.384);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    height: 100vh;
+    width: 100%;
+    font-weight: 900;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.post-btn{
+    margin: 1rem;
+}
+
+.bgfooter{
+    margin-top: auto;
+}
+.post-txt{
+    margin-top: auto;
+}
+
+.footer{
+    padding: 1.5rem;
+    /* background-color: rgba(0, 0, 0, 0.479); */
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bgfooter{
+    /* background-image: url("../assests/bg.jpg"); */
+    width: 100%;
+}
+
+.txt-footer{
+    font-size: 1rem;
+}
+
+a{
+    color: unset;
+}
