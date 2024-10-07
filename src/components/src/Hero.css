@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.315);
+    background-image: url("../assests/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode:overlay;
+    width: 100vw;
+    /* position: fixed;
+    top: 0;
+    width: 100vw; */
+}
+  
+.hero-div{
+    position: relative;
+    text-align: left;
+}
+  
+.hero-txt{
+    display: inline-block;
+    font-size: 48px;
+    margin: 0;
+    position: relative;
+    z-index: 1; 
+    color: var(--primary-color);
+    font-weight: 900;
+}
+
+.hero-logo{
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    z-index: 1; 
+    filter: var(--defualt-shadow);
+}
+  
+#a320{
+    width: 30vw; 
+    position: absolute;
+    top: -80px; 
+    left: -170px;
+    transform: translate(0, 0); 
+    transition: transform 0.1s ease-out;
+    z-index: 0; 
+}
+
+#cessna{
+    width: 18vw; 
+    position: absolute;
+    bottom: 10px; 
+    right: -100px;
+    rotate: 10deg;
+    transform: translate(0, 0); 
+    transition: transform 0.1s ease-out;
+    z-index: 2; 
+    animation: cessna 2s ease-in linear;
+}

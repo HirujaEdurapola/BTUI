@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scroll to Move the Plane</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  
+
+  <div class="explainer-container weather-container" id="explainer">
+    <div class="msfs" id="rain">
+      <div class="upper-child">
+        <img src="./img/MSFS.png" alt="" class="logo" data-aos="fade-up">
+        <h1 class="animate-txt scrollA"><span style="opacity: 0;">H</span><span id="typing" >Realism Meets It's Limits</span></h1>
+      </div>
+      <div class="child-div">
+        <h1 class="explainer scrollA">Take flight with Microsoft Flight Simulator, where the world is at your fingertips. From iconic landmarks to remote destinations, you can explore the globe with stunning accuracy, thanks to real-time satellite data and advanced AI. Whether soaring over towering mountains, vast oceans, or bustling cities, every detail is rendered in breathtaking 4K, making each flight an unforgettable journey.
+<br><br>
+          Choose from a wide range of meticulously crafted aircraft, from nimble light planes to massive commercial airliners, each with authentic cockpits and flight dynamics. Navigate through real-world weather systems, face unpredictable turbulence, and experience live air traffic as you fly through dynamic and ever-changing skies. Whether you're a seasoned pilot or new to aviation, MSFS offers endless opportunities to test your skills and explore.
+          <br><br>
+          More than just a flight simulator, Microsoft Flight Simulator is a community. Share your adventures with others, take part in live events, and enjoy an ever-expanding selection of third-party content and mods. With VR compatibility, multiplayer modes, and constant updates, every flight in MSFS promises new thrills and discoveries. Your next great adventure is just a takeoff away!</h1>
+        <button class="explainer-btn scrollA" id="explorer">Explore</button>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/type.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/scrollHandler.js" type="module"></script>
+  <script>
+    document.getElementById('explorer').addEventListener('click', function() {
+            window.parent.postMessage('scrollToComponent', '*');
+        });
+  </script>
+</body>
+</html>
