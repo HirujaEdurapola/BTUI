@@ -1,8 +1,43 @@
-# React + Vite
+# React Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based web application.
 
-Currently, two official plugins are available:
+## Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Before you begin, ensure you have met the following requirements:
+
+- Node.js (v20.x or higher) and npm installed. You can download them [here](https://nodejs.org/).
+- A text editor like VSCode for development.
+
+## Installation
+
+To set up the project locally, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/HirujaEdurapola/BTUI.git
+   ```
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd BTUI
+   ```
+
+3. **Install the required dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+## Running the Application
+
+To start the development server, run:
+
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173/`.
+
